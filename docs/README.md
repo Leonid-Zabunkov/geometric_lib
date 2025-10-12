@@ -1,10 +1,52 @@
-# Math formulas
-## Area
-- Circle: S = πR²
-- Rectangle: S = ab
-- Square: S = a²
+# Математические формулы 1.0.0
+Библиотека содержит функции, которые считают площади и периметры некоторых фигур
 
-## Perimeter
-- Circle: P = 2πR
-- Rectangle: P = 2a + 2b
-- Square: P = 4a
+[История изменений](./CHANGELOG.md)
+
+## Геометрические фигуры
+### Круг:
+Реализовано в файле: [circle.py](../circle.py)
+Имеет 2 функции:
+-  `def perimeter(r)` - реализует вычисление периметра **P = 2πR**
+    ```python
+    p = perimeter(12)
+    ```
+-  `def area(r)` - реализует вычисление площади **S = πR²**
+    ```python
+    s = area(12)
+    ```
+
+### Прямоугольник:
+Реализовано в файле: [rectangle.py](../circle.py)
+Имеет 2 функции:
+-  `def perimeter(a, b)` - реализует вычисление периметра **P = 2*(a + b)**
+    ```python
+    p = perimeter(3, 5)
+    ```
+-  `def area(a, b)` - реализует вычисление площади **S = a * b**
+    ```python
+    s = area(3, 5)
+    ```
+### Квадрат:
+Реализовано в файле: [square.py](../circle.py)
+Имеет 2 функции:
+-  `def perimeter(a, b)` - реализует вычисление периметра **P = 4 * a**
+    ```python
+    p = perimeter(4)
+    ```
+-  `def area(a, b)` - реализует вычисление площади **a²**
+    ```python
+    s = area(4)
+    ```
+### Треугольник:
+Реализовано в файле: [triangle.py](../circle.py)
+Имеет 2 функции:
+-  `def perimeter(a, b)` - реализует вычисление периметра **P = a + b + c**
+    ```python
+    p = perimeter(3,5,4)
+    ```
+-  `def area(a, b)` - реализует вычисление площади **S = a*h / 2**
+    ```python
+    s = area(3,4)
+    ``` 
+  
