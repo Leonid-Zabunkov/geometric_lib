@@ -9,7 +9,9 @@ def area(a, b):
     Returns:
         Значение площади
     """
-    return a * b
+    if a <= 0 or b <= 0:
+        return "Incorrect args"
+    return round(a * b, 8)
 
 
 def perimeter(a, b):
@@ -23,4 +25,7 @@ def perimeter(a, b):
     Returns:
         Значение периметра
     """
-    return (a + b) * 2
+    if a <= 0 or b <= 0:
+        return "Incorrect args"
+    return round((a + b) * 2, 8)
+

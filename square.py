@@ -1,4 +1,3 @@
-
 def area(a):
     """
     Рассчитывает площадь квадрата.
@@ -9,7 +8,9 @@ def area(a):
     Returns:
         Значение площади
     """
-    return a * a
+    if a <= 0:
+        return "Incorrect args"
+    return round(a * a, 8)
 
 
 def perimeter(a):
@@ -22,4 +23,6 @@ def perimeter(a):
     Returns:
         Значение периметра
     """
-    return 4 * a
+    if a <= 0:
+        return "Incorrect args"
+    return round(4 * a, 8)

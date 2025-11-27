@@ -49,4 +49,6 @@
     ```python
     s = area(3,4)
     ``` 
-  
+    
+<!-- <font color="red">Красный текст</font> -->
+<!-- <font color="#00FF00">Красный текст</font> -->
