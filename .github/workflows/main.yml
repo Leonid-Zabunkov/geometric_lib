@@ -21,7 +21,4 @@ jobs:
           python-version: 3.12
 
       - name: Run unit tests
-        run: |
-          python -m unittest discover 
-          echo Retry
-          python -m unittest discover 
+        run: python -m unittest discover 
