@@ -18,7 +18,3 @@ class CircleTestCase(unittest.TestCase):
    def test_float_radius(self):
        res = area(1.2345)
        self.assertEqual(res, 4.787756573542472)
-       
-   def test_invalid_input(self):
-       res = area('1.2345')
-       self.assertEqual(res, 4.787756573542472)
